@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search in Database | MAISEIP</title>
+
+    <!-- custom css cdn link -->
+    <link rel="stylesheet" href="search-in-database.css">
+
+    <!-- google font poppins cdn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- google icons cdn link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+
+    <!-- database box main -->
+    <div class="database-box">
+
+        <div class="database-box-grid" id="section">
+
+            <h2>Zoeken In Database</h2>
+
+            <div class="search-bar">
+
+                <input type="search" placeholder="Zoeken naar tabel . . .">
+
+                <div class="input-icons-box">
+
+                    <span class="material-symbols-outlined">
+                        refresh
+                    </span>
+
+                    <button class="filter-btn">
+                        <span class="material-symbols-outlined">
+                            edit
+                        </span>
+                    </button>
+                    <div class="dropdown">
+
+                        <h4>Filter Opties</h4>
+
+                        <div class="dropdown-box1">
+
+                            <div>
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+                                <label for="vehicle1">Viewname</label><br>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+                                <label for="vehicle1">Username</label><br>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+                                <label for="vehicle1">Password</label><br>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+                                <label for="vehicle1">Customerkey</label><br>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-box2">
+
+                            <div>
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                <label for="vehicle1">Email address</label><br>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                <label for="vehicle1">Telefoonnummer</label><br>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                <label for="vehicle1">Aangemaakt op</label><br>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="database-list-box">
+
+                <div class="database-list-main">
+
+                    <div class="box-main">
+                        <p>Id</p>
+                    </div>
+
+                    <div class="box-main">
+                        <p>Order Id</p>
+                    </div>
+
+                    <div class="box-main">
+                        <p>Data Base name</p>
+                    </div>
+
+                    <div class="box-main">
+                        <p>View Name</p>
+                    </div>
+
+                    <div class="box-main">
+                        <p>Username</p>
+                    </div>
+
+                    <div class="box-main">
+                        <p>Password</p>
+                    </div>
+
+                    <div class="box-main">
+                        <p>Customerkey</p>
+                    </div>
+
+                    <div class="box-main">
+                        <p>Reportname</p>
+                    </div>
+
+                    <div class="box-main">
+                        <p>View Type</p>
+                    </div>
+
+                    <div class="box-main">
+                        <p>Edit & Delete</p>
+                    </div>
+                    
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+
+                    
+
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="edit-btn-dropdown-box-grid1">
+
+                                        <div class="button-container">
+                                            <button class="tab-button" id="tab-btn1" data-text="Edit&nbsp;View"></button>
+                                            <button class="tab-button" id="tab-btn2" data-text="Create&nbsp;View"></button>
+                                            <div class="highlight"></div>
+                                        </div>                                          
+
+                                        <div class="x-mark-btn">
+                                            <span class="material-symbols-outlined">
+                                                close
+                                            </span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="edit-btn-dropdown-box-grid2">
+
+                                        <div class="edit-btn-dropdown-box-grid2-left">
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="edit-btn-dropdown-box-grid2-right">
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="edit-btn-dropdown-box-grid3">
+
+                                        <div class="edit-btn-dropdown-box-grid3-left">
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="edit-btn-dropdown-box-grid3-right">
+
+                                            <div>
+                                                <label for="databasename">DataBase NAAM</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="databasename">DataBase name</label>
+                                                <input type="text" id="databasename" name="databasename" required>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="save-btn-grid2">
+                                        <button type="submit">Opslaan</button>
+                                    </div>
+
+                                    <div class="save-btn-grid3">
+                                        <button type="submit">Opslaan</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="database-list-grid">
+
+                    <div class="box" id="box">
+                        <p>KalibraDataWarehouse</p>
+                    </div>
+                    <div class="box">
+                        <p>vw_Kalibra_Cass</p>
+                    </div>
+                    <div class="box">
+                        <p>KalibraBI</p>
+                    </div>
+                    <div class="box">
+                        <p>75922162791105</p>
+                    </div>
+                    <div class="box">
+                        <p>D8A7430B-36B0-4D84</p>
+                    </div>
+                    <div class="box">
+                        <p>MIP Prijs Codes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-btn-grid">
+                            <button class="edit-btn">
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+
+                            <button class="delete-btn">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="edit-btn-dropdown">
+
+                            <div class="edit-btn-filter">
+
+                                <div class="edit-btn-dropdown-box">
+
+                                    <div class="x-mark-btn">
+                                        <span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- save loading section starts -->
+    <div id="loading-overlay" style="display: none;">
+        <div class="loader"></div>
+    </div>
+    <!-- save loading section ends -->
+    
+
+
+    <!-- JavaScrip custom cdn link -->
+    <script src="filter-dropdown.js"></script>
+    <script src="edit-dropdown.js"></script>
+    <script src="switch-btn.js"></script>
+    <script src="save-edit-view.js"></script>
+    <script src="save-create-view.js"></script>
+</body>
+</html>
